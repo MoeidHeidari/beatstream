@@ -138,7 +138,7 @@ export default function Component() {
             onMouseMove={handleMouseMove}
           >
             <div
-              className="flex space-x-8 px-4"
+              className="flex space-x-8 px-4 no-scrollbar"
               style={{
                 scrollbarWidth: 'none', /* Firefox */
                 msOverflowStyle: 'none', /* IE and Edge */
@@ -150,7 +150,7 @@ export default function Component() {
                   className="flex-shrink-0 w-64 transition-transform duration-300 ease-in-out transform hover:scale-110"
                 >
                   <div
-                    className="relative aspect-[9/19.5] overflow-hidden rounded-[2.5rem] border border-white/10 bg-gray-900 shadow-xl"
+                    className="relative aspect-[9/19.5] overflow-hidden rounded-[2.5rem] border border-white/10 bg-gray-900 shadow-xl "
                   >
                     <Image
                       src={screenshot.url}

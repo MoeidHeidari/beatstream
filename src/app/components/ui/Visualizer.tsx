@@ -29,7 +29,7 @@ const Visualizer = () => {
   // Start animation on hover
   useEffect(() => {
     if (isHovered) {
-      intervalRef.current = setInterval(updateHeights, 120); // Update every 120ms for smoother but more dynamic animation
+      intervalRef.current = setInterval(updateHeights, 100); // Update every 120ms for smoother but more dynamic animation
     } else if (intervalRef.current) {
       clearInterval(intervalRef.current); // Clear interval when hover ends
       intervalRef.current = null;
