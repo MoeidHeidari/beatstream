@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/beatstream.app/' : '', // Prefix for static assets
-  basePath: process.env.NODE_ENV === 'production' ? '/beatstream.app' : '', // Base path for GitHub Pages
   images: {
     remotePatterns: [
       {
