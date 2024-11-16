@@ -1,6 +1,6 @@
 'use client';
 
-import { Bell, Search, Home, Clock, Heart, PlusCircle, Calendar, Music, Users, Radio, Upload, MessageSquare } from 'lucide-react'
+import { Bell,Music, Users, Radio, Upload, MessageSquare } from 'lucide-react'
 import Image from "next/image"
 import { useState, useRef } from "react"
 import Button from './components/ui/Button';
